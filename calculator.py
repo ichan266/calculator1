@@ -4,7 +4,7 @@ from arithmetic import * # import all methods in arithmetic
 
 
 while True: 
-    user_input = input("Enter your equation > ")  # Ask user about what equation they want to use and put it input a variable called user_input
+    user_input = input("Enter your equation (or enter q to quit > ")  # Ask user about what equation they want to use and put it input a variable called user_input
     tokens = user_input.split(" ") # Take the user input 
 
     if "q" in tokens:
